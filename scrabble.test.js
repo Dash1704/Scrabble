@@ -24,4 +24,8 @@ describe('scrabble', () => {
   it('should BCMP as 3 points each', () => {
     expect(scrabble('BCMP')).toEqual(12)
   })
+
+  it('should BCMP as 3 points each', () => {
+    expect(scrabble('FHVWY')).toEqual(20)
+  })
 })
