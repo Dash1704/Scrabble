@@ -40,4 +40,8 @@ describe('scrabble', () => {
   it('should QZ as 8 points each', () => {
     expect(scrabble('QZ')).toEqual(20)
   })
+
+  it('should case insensitive', () => {
+    expect(scrabble('qZ')).toEqual(20)
+  })
 })

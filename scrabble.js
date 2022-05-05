@@ -1,5 +1,5 @@
 const scrabble = (word) => {
-  const array = word.split('')
+  const array = word.toUpperCase().split('')
   let pointTotal = 0
 
    const pointsChart = {
