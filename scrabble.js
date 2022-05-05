@@ -16,7 +16,7 @@ const scrabble = (word) => {
     pointTotal += pointsChart[letter]
   })
   
-return pointTotal
+  return pointTotal
 }
 
 module.exports = scrabble

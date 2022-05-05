@@ -44,4 +44,13 @@ describe('scrabble', () => {
   it('should case insensitive', () => {
     expect(scrabble('qZ')).toEqual(20)
   })
+
+  it('big test for loads of numbers combined', () => {
+    expect(scrabble('OXYPHENBUTAZONE')).toEqual(41)
+  })
+
+  it('big test for loads of numbers combined and case', () => {
+    expect(scrabble('OXYpHENBuTAZoNE')).toEqual(41)
+  })
+  
 })
