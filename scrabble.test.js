@@ -52,5 +52,9 @@ describe('scrabble', () => {
   it('big test for loads of numbers combined and case', () => {
     expect(scrabble('OXYpHENBuTAZoNE')).toEqual(41)
   })
+
+  it('should give 0 if any spaces', () => {
+    expect(scrabble("Hello world")).toEqual(17)
+  })
   
 })
