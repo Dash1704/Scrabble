@@ -20,4 +20,8 @@ describe('scrabble', () => {
   it('should return DG as 4', () => {
     expect(scrabble('DG')).toEqual(4)
   })
+
+  it('should BCMP as 3 points each', () => {
+    expect(scrabble('BCMP')).toEqual(12)
+  })
 })
