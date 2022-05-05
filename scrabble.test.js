@@ -7,5 +7,9 @@ describe('scrabble', () => {
 
   it('should return AE as 2', () => {
     expect(scrabble('AE')).toEqual(2)
-})
+  })
+  
+  it('should return AE as 2', () => {
+    expect(scrabble('AEIOULNRST')).toEqual(10)
+  })
 })

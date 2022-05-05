@@ -3,7 +3,7 @@ const scrabble = (word) => {
   let pointTotal = 0
 
   array.map((letter) => {
-    if(letter === 'A' || letter === 'E'){
+    if(letter === 'A' || letter === 'E' || letter === 'I' || letter === 'O' || letter === 'U' || letter === 'L' || letter === 'N' || letter === 'R' || letter === 'S' || letter === 'T'){
         pointTotal += 1
     }
   })
