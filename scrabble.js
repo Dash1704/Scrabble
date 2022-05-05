@@ -6,7 +6,7 @@ const scrabble = (word) => {
     if(letter === 'A' || letter === 'E' || letter === 'I' || letter === 'O' || letter === 'U' || letter === 'L' || letter === 'N' || letter === 'R' || letter === 'S' || letter === 'T'){
         pointTotal += 1
     }
-    else if( letter === 'D'){
+    else if( letter === 'D' || letter === 'G'){
         pointTotal += 2
     }
   })

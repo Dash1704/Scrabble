@@ -16,4 +16,8 @@ describe('scrabble', () => {
   it('should return D as 2', () => {
     expect(scrabble('D')).toEqual(2)
   })
+
+  it('should return DG as 4', () => {
+    expect(scrabble('DG')).toEqual(4)
+  })
 })
