@@ -33,4 +33,7 @@ describe('scrabble', () => {
     expect(scrabble('K')).toEqual(5)
   })
 
+  it('should JX as 8 points each', () => {
+    expect(scrabble('JX')).toEqual(16)
+  })
 })
